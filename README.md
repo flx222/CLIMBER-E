@@ -1,4 +1,4 @@
-# CEMP
+# MACHER
 
 
 # 🧬 Enzyme–Substrate Model Fine-tuning and Prediction
@@ -58,9 +58,6 @@ The corresponding **dataset** and **pre-trained weights** can be accessed at Zen
 - Logs are saved under the specified output folder.  
 - Ensure your `device_id` is correctly configured in the shell scripts.
 
-1. Citation
 
-If you use this repository or the associated dataset, please cite:
-- Zenodo DOI: https://doi.org/10.5281/zenodo.17606660
 
 

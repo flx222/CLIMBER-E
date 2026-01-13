@@ -1,4 +1,4 @@
-# MACHER
+# MACHER （Model-guided Adaptive Training for Catalytic High-efficiency EngineeRing）
 
 
 # 🧬 Enzyme–Substrate Model Fine-tuning and Prediction

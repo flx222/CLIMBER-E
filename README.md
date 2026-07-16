@@ -1,5 +1,5 @@
 # CLIMBER-E: a unified enzyme-substrate model for rational biocatalyst engineer 
-
+![Figure](CLIMBER-E.png)
 
 This repository provides example scripts for **fine-tuning** and **prediction** based on the pre-trained model.  
 The corresponding **dataset** and **pre-trained model** can be accessed at Zenodo:  

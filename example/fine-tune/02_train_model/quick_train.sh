@@ -5,10 +5,10 @@ run_task () {
     local output_url="${data_url}"
 
     # Train
-    python mpbert_regress_smile.py \
+    python run_regress.py \
         --config_path config_2048_sm.yaml \
         --data_url "${data_url}" \
-        --load_checkpoint_url "${checkpoint_url}" \
+        --load_checkpoint_url run_regress"${checkpoint_url}" \
         --output_url "${output_url}" \
         --device_id 5 \
         --do_train True \
@@ -16,7 +16,7 @@ run_task () {
         1> "${data_url}/train.log" 2> "${data_url}/train_sys.log"
 
     # Evaluate
-    python mpbert_regress_smile.py \
+    python run_regress.py \
         --config_path config_2048_sm.yaml \
         --data_url "${data_url}" \
         --load_checkpoint_url "${data_url}" \

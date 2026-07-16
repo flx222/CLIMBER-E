@@ -1,4 +1,4 @@
-# CLIMBER-E:a unified enzyme-substrate model for rational biocatalyst engineer 
+# CLIMBER-E: a unified enzyme-substrate model for rational biocatalyst engineer 
 
 
 This repository provides example scripts for **fine-tuning** and **prediction** based on the pre-trained model.  

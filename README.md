@@ -1,10 +1,8 @@
-# MACHER （Model-guided Adaptive Training for Catalytic High-efficiency EngineeRing）
+# CLIMBER-E:a unified enzyme-substrate model for rational biocatalyst engineer 
 
 
-# 🧬 Enzyme–Substrate Model Fine-tuning and Prediction
-
-This repository provides example scripts for **fine-tuning** and **prediction** based on the pre-trained enzyme–substrate model.  
-The corresponding **dataset** and **pre-trained weights** can be accessed at Zenodo:  
+This repository provides example scripts for **fine-tuning** and **prediction** based on the pre-trained model.  
+The corresponding **dataset** and **pre-trained model** can be accessed at Zenodo:  
 👉 [https://doi.org/10.5281/zenodo.17606660](https://doi.org/10.5281/zenodo.17606660)
 
 
@@ -31,7 +29,7 @@ The corresponding **dataset** and **pre-trained weights** can be accessed at Zen
 
    ```bash
    cd example/fine-tune
-   python generate_regress_smile_2x.py \
+   python generate_smile.py \
        --data_dir /path/to/dataset \
        --output_dir /path/to/output_mindrecord
    ```

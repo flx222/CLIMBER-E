@@ -6,10 +6,10 @@ This repository provides example scripts for **fine-tuning** and **prediction** 
 The corresponding **dataset** and **pre-trained model** can be accessed at Zenodo:  
 👉 [https://doi.org/10.5281/zenodo.17606660](https://doi.org/10.5281/zenodo.17606660)
 
+
+Quick Start
+
 1. Environment Setup
-
-1. Quick Start
-
 
    ```bash
    pip install -r requirements.txt
